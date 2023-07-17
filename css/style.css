@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:wght@300&display=swap');
+
+h1,h2,h3,h4,h5,p{
+    font-family: 'Rubik';
+}
+
+h1,h2,h3,h4,h5{
+    font-weight: 700!important;
+    font-size: 39px!important;
+}
+
+p{
+    font-size: 16px!important;
+    font-weight: 500!important;
+}
+
+button>a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.jumbotron {
+    background: url("../images/image\ 2.png") no-repeat center center;
+    background-size: cover;
+    /* padding: 5em inherit; */
+    height: 400px;
+    max-width: 100%;
+    margin-bottom: 100px;
+  }
+
+  .logo{
+      max-width: 150px;
+  }
+
+  .img{
+      max-width: 500px;
+  }
+
+  .row{
+      margin-top: 100px;
+      margin-bottom: 100px;
+  }
+
+  .signup{
+      background-color: #3E4095!important;
+      color: #fff!important;
+  }
+
+  @media screen and (max-width: 480px) {
+    .jumbotron{
+        height: 200px;
+    }
+
+    .r1{
+        flex-direction: column-reverse;
+    }
+
+    .img-1{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+  }
+
+  
